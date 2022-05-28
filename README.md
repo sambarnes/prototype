@@ -1,6 +1,6 @@
 <img align="right" width="150" height="150" top="100" src="./assets/readme.jpeg">
 
-# prototype • [![tests](https://github.com/sambarnes/prototype/actions/workflows/tests.yml/badge.svg)](https://github.com/sambarnes/prototype/actions/workflows/tests.yml) ![GitHub](https://img.shields.io/github/license/sambarnes/prototype)
+# prototype • [![tests](https://github.com/sambarnes/prototype/actions/workflows/tests.yaml/badge.svg)](https://github.com/sambarnes/prototype/actions/workflows/tests.yaml) ![GitHub](https://img.shields.io/github/license/sambarnes/prototype)
 
 A batteries included template for [Protostar](https://github.com/software-mansion/protostar)-based Cairo projects on StarkNet.
 
