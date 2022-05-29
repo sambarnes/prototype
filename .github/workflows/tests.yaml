@@ -7,10 +7,12 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
       - name: Install Protostar
-        run: |
-          curl -L https://raw.githubusercontent.com/software-mansion/protostar/master/install.sh | bash
-          echo "~/.protostar/dist/protostar/" >> $GITHUB_PATH
+        uses: sambarnes/protostar-toolchain@main
+
       - name: Run Tests
         run: protostar test
