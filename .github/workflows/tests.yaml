@@ -11,5 +11,6 @@ jobs:
       - name: Install Protostar
         run: |
           curl -L https://raw.githubusercontent.com/software-mansion/protostar/master/install.sh | bash
+          echo "~/.protostar/dist/protostar/" >> $GITHUB_PATH
       - name: Run Tests
-        run: export PATH="$PATH:~/.protostar/dist/protostar/" && protostar test
+        run: protostar test
